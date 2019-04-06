@@ -17,3 +17,15 @@ app.listen(port, function(req, res){
 app.get('/', function(req, res){
   res.render('index.ejs');
 });
+
+app.get('/about', function(req, res){
+  res.render('about.ejs');
+});
+
+app.get('/projects', function(req, res){
+  res.render('projects.ejs');
+});
+
+app.get('/releases', function(req, res){
+  res.render('releases.ejs');
+});

@@ -1,9 +1,6 @@
-#main p {
-  color: #00ff00;
-  width: 97%;
+//variables
+$background: #f9f9f9;
 
-  .redbox {
-    background-color: #ff0000;
-    color: #000;
-  }
+body {
+  background-color: $background;
 }
